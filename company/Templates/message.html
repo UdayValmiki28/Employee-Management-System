@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'message.css' %}" />
+  </head>
+  <body>
+    <h1>{{msg}}</h1>
+    <div class="links">
+      <a href="/employee/view">Click Here to View all Employees</a><br /><br />
+      <a href="/departments/view">Click here to view all department list</a>
+    </div>
+  </body>
+</html>
